@@ -2,4 +2,4 @@
 
 # RESOLVENDO CONFLITOS
 
-# Fazendo isso para testar --testando
+# Fazendo isso para testar
