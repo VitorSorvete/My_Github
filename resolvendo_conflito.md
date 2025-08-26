@@ -4,4 +4,4 @@
 
 # Fazendo isso para testar
 
-![print criando branch](imagens_my-git/Grafico1IA.png)
+![print criando branch](img/Grafico1IA.png)
