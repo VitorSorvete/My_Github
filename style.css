@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -24,9 +23,13 @@ header h1 {
     letter-spacing: 1px;
     color: #ffffff;
 }
+header h2 {
+    color: #ffffff;
+    font-size: 1rem;
+}
 .content {
     background-color: lightblue;
-    text-align: center;
+    text-align: auto;
     padding: 50px;
 }
 p {
@@ -50,4 +53,7 @@ code {
     padding: .2rem .4rem;
     border-radius: .25rem;
     font-family: monospace;
+}
+main {
+    padding: 2rem;
 }
