@@ -85,6 +85,7 @@ header h1 {
     text-align: auto;
     padding: 50px;
 }
+
 p {
     border: 1px solid #e5e7eb;
     text-align: left;
@@ -164,10 +165,13 @@ main section {
     flex: 1;
 }
 
-footer {
+footer .container {
     background-color: lightblue;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
     border-radius: .25rem;
+}
+footer .container p{
+    text-align: center;
 }
