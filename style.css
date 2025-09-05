@@ -2,22 +2,27 @@
     margin: 0;
     padding: 0;
     background-color: lightblue;
+    box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     color: #333;
 }
+
 header {
     background-color: lightblue;
     padding: 1rem;
 }
+
 header .container {
     border-radius: .25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header .container .btn-auth {
     background-color: #007bff;
     color: #fff;
@@ -26,9 +31,37 @@ header .container .btn-auth {
     text-decoration: none;
     transition: background-color .3s;
 }
+
 header .container .btn-auth:hover {
     background-color: #0056b3;
 }
+
+header .container .btn-signup {
+    background-color: #007bff;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+header .container .btn-signup:hover {
+    background-color: #0056b3;
+}
+
+header .container .btn-text{
+    background-color: #007bff;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+header .container .btn-text:hover {
+    background-color: #0056b3;
+}
+
 header nav ul {
     list-style: none;
     display: flex;
@@ -76,22 +109,61 @@ main img {
     display: block;
     margin: 0 auto 1rem;
 }
-main h2 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
-}
 
 main section {
     display: flex;
-    border: 1px solid #e5e7eb;
-    margin-bottom: 2rem;
-    background: #f6f8fa;
+    border-radius: .25rem;
     padding: 1rem;
-    font-family: monospace;
-    background-color: lightblue;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+}
+
+.box {
+    display: flex;
+    align-items: center; 
+    gap: 10px;              
+    background: lightblue;
+    padding: .5rem .75rem;
     border-radius: .25rem;
 }
+
+.box h2 {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    color: #333;
+    text-align: center;
+    flex: 1;
+}
+
+.box img {
+    width: 250px;
+    height: auto;
+}
+
+.box li {
+    display: flex;
+    list-style: none;
+    background: lightblue;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+    flex: 1;
+    text-align: center;
+}
+
+.highlight {
+    display: flex;
+    background-color: lightblue;
+    padding: .2rem .4rem;
+    border-radius: .25rem;
+}
+
+.highlight li {
+    list-style: none;
+    text-align: center;
+    flex: 1;
+}
+
 footer {
     background-color: lightblue;
     text-align: center;

@@ -15,7 +15,8 @@
             <nav>
                 <ul>
                     <li><a class="btn-auth" href="#comandos">Comandos Git</a></li>
-                    <li><a class="btn-auth btn-signup" href="#fluxo">Fluxo do Git/GitHub</a></li>
+                    <li><a class="btn-auth btn-signup" href="#fluxo">Fluxo do Git</a></li>
+                    <li><a class="btn-auth btn-signup" href="#dicas">Dicas do Git</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,18 +47,32 @@
         </div>
 
         <section>
-            <h2 id="fluxo">Fluxo Básico do Git/GitHub</h2>
-            <ol>
-                <li>Crie um repositório no GitHub.</li>
-                <li>Clone o repositório localmente com <code>git clone [URL]</code>.</li>
-                <li>Faça alterações nos arquivos do projeto.</li>
-                <li>Use <code>git add [arquivo]</code> para preparar as mudanças.</li>
-                <li>Registre as mudanças com <code>git commit -m "mensagem"</code>.</li>
-                <li>Envie as mudanças ao GitHub com <code>git push</code>.</li>
-                <li>Para atualizar seu repositório local, use <code>git pull</code>.</li>
-            </ol>
-            <p>Este fluxo básico ajuda a manter o controle de versão e facilita a colaboração em projetos.</p>
+            <div class="box">
+                <h2 id="fluxo">Fluxo Básico do Git/GitHub</h2>
+                <img src="./img/fluxo-basico.png" alt="Fluxo básico do Git/GitHub" width="250">
+                <ol>
+                    <li>Crie um repositório no GitHub.</li>
+                    <li>Clone o repositório localmente com <code>git clone [URL]</code>.</li>
+                    <li>Faça alterações nos arquivos do projeto.</li>
+                    <li>Use <code>git add [arquivo]</code> para preparar as mudanças.</li>
+                    <li>Registre as mudanças com <code>git commit -m "mensagem"</code>.</li>
+                    <li>Envie as mudanças ao GitHub com <code>git push</code>.</li>
+                    <li>Para atualizar seu repositório local, use <code>git pull</code>.</li>
+                </ol>
+            </div>
         </section>
+
+        <div class="highlight">
+            <h2 id="dicas">Dicas para Usar Git e GitHub</h2>
+            <ul>
+                <li>Escreva mensagens de commit claras e descritivas.</li>
+                <li>Use branches para desenvolver novas funcionalidades ou corrigir bugs.</li>
+                <li>Faça pull regularmente para manter seu repositório atualizado.</li>
+                <li>Revise mudanças antes de fazer merge em branches principais.</li>
+                <li>Utilize issues e pull requests para gerenciar tarefas e revisões de código.</li>
+            </ul>
+
+        </div>
     </main>
 
     <footer>
