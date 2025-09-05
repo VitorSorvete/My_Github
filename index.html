@@ -14,18 +14,18 @@
             <p>Este repositório contém meus projetos e códigos relacionados ao GitHub.</p>
             <nav>
                 <ul>
-                    <li><a href="#fluxo">Comandos Git</a></li>
-                    <li><a href="#fluxo">Fluxo do Git/GitHub</a></li>
-                    <li><a href="#fluxo">Resolver conflitos</a></li>
+                    <li><a class="btn-auth" href="#comandos">Comandos Git</a></li>
+                    <li><a class="btn-auth btn-signup" href="#fluxo">Fluxo do Git</a></li>
+                    <li><a class="btn-auth btn-signup" href="#dicas">Dicas do Git</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
-        <img src="./img/github.png" alt="Logo do GitHub" width="200">
-        <li>Git é um sistema de controle de versão que permite registrar e gerenciar o histórico de 
-        alterações de arquivos em um projeto.</li>
-        <li>GitHub é uma plataforma online que hospeda repositórios Git e facilita o compartilhamento 
-        e a colaboração entre desenvolvedores.</li>
+        <div class="intro">
+            <img src="./img/github.png" alt="Logo do GitHub" width="200">
+            <p>Git é um sistema de controle de versão que permite registrar e gerenciar o histórico de 
+            alterações de arquivos em um projeto.</p>
+            <p>GitHub é uma plataforma online que hospeda repositórios Git e facilita o compartilhamento 
+            e a colaboração entre desenvolvedores.</p>
         </div>
     </header>
     
@@ -34,40 +34,50 @@
         <h2>Fluxo do Git/Github</h2>
         <img src="./img/fluxogit.png" alt="Logo do fluxo" width="800">
             <h2 id="comandos">Comandos Git Comuns</h2>
-                <p><code>git init</code> → Inicializa um repositório vazio</p>
-                <p><code>git clone</code> → Clona repositório remoto</p>
-                <p><code>git status</code> → Mostra estado da árvore de trabalho</p>
-                <p><code>git add</code> → Adiciona mudanças ao stage</p>
-                <p><code>git commit -m "msg"</code> → Registra snapshot</p>
-                <p><code>git push</code> → Envia commits ao GitHub</p>
-                <p><code>git pull</code> → Sincroniza e integra mudanças</p>
-                <p><code>git branch</code> → Lista ou cria branches</p>
-                <p><code>git merge</code> → Mescla branches</p>
-                <p><code>git log</code> → Histórico de commits</p>
-            </div>
-    </main>
-    <footer>
-        <div class="commands">
-            <h2>Resolvendo conflitos</h2>
-            <img src="./img/conflitos.png" alt="Logo do conflito" width="800">
-            <li>1. Identifique o conflito: Use <code>git status</code> para ver quais arquivos estão em conflito.</li>
-            <li>2. Edite os arquivos: Abra os arquivos em conflito e procure por marcas de conflito (<<<<<<<, =======, >>>>>>>). Edite o conteúdo para resolver o conflito.</li>
-            <li>3. Adicione os arquivos resolvidos: Após resolver os conflitos, use <code>git add &lt;arquivo&gt;</code> para marcar os arquivos como resolvidos.</li>
-            <li>4. Faça o commit: Use <code>git commit</code> para criar um novo commit que inclui as resoluções de conflito.</li>
-            <li>5. Continue o processo: Se você estava no meio de um rebase ou merge, continue o processo com <code>git rebase --continue</code> ou <code>git merge --continue</code>.</li>
-            <li>6. Verifique: Use <code>git status</code> novamente para garantir que todos os conflitos foram resolvidos e que o repositório está em um estado limpo.</li>        
-            <li>&copy; 2025 Repositório My_Github. Todos os direitos reservados.</li>
-            <ul>
-                <li><a href="#"><i data-lucide= "instagram"></i></a></li>
-                <li><a href="#"><i data-lucide= "facebook"></i></a></li>
-                <li><a href="#"><i data-lucide= "youtube"></i></a></li>
-            </ul>
+            <p><code>git init</code> → Inicializa um repositório vazio</p>
+            <p><code>git clone</code> → Clona repositório remoto</p>
+            <p><code>git status</code> → Mostra estado da árvore de trabalho</p>
+            <p><code>git add</code> → Adiciona mudanças ao stage</p>
+            <p><code>git commit -m "msg"</code> → Registra snapshot</p>
+            <p><code>git push</code> → Envia commits ao GitHub</p>
+            <p><code>git pull</code> → Sincroniza e integra mudanças</p>
+            <p><code>git branch</code> → Lista ou cria branches</p>
+            <p><code>git merge</code> → Mescla branches</p>
+            <p><code>git log</code> → Histórico de commits</p>
         </div>
+
+        <section>
+            <div class="box">
+                <h2 id="fluxo">Fluxo Básico do Git/GitHub</h2>
+                <img src="./img/fluxo-basico.png" alt="Fluxo básico do Git/GitHub" width="250">
+                <ol>
+                    <li>Crie um repositório no GitHub.</li>
+                    <li>Clone o repositório localmente com <code>git clone [URL]</code>.</li>
+                    <li>Faça alterações nos arquivos do projeto.</li>
+                    <li>Use <code>git add [arquivo]</code> para preparar as mudanças.</li>
+                    <li>Registre as mudanças com <code>git commit -m "mensagem"</code>.</li>
+                    <li>Envie as mudanças ao GitHub com <code>git push</code>.</li>
+                    <li>Para atualizar seu repositório local, use <code>git pull</code>.</li>
+                </ol>
+            </div>
+        </section>
+
+        <div class="highlight">
+            <h2 id="dicas">Dicas para Usar Git e GitHub</h2>
+            <ul>
+                <li>Escreva mensagens de commit claras e descritivas.</li>
+                <li>Use branches para desenvolver novas funcionalidades ou corrigir bugs.</li>
+                <li>Faça pull regularmente para manter seu repositório atualizado.</li>
+                <li>Revise mudanças antes de fazer merge em branches principais.</li>
+                <li>Utilize issues e pull requests para gerenciar tarefas e revisões de código.</li>
+            </ul>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Repositório GitHub</p>
     </footer>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        lucide.createIcons();
-    </script>
 </body>
 
 </html>
