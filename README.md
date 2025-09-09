@@ -25,5 +25,5 @@ O Git marcou automaticamente as diferenças para que o desenvolvedor escolha com
 
 ======= → separa as duas versões em conflito.
 
->>>>>>> hash → mostra a versão remota (a que veio do repositório ou de outra branch).
+======= hash → mostra a versão remota (a que veio do repositório ou de outra branch).
                                   
